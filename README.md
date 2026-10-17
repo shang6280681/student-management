@@ -92,23 +92,23 @@ This feature is intentionally separate from locally stored Students: public demo
 
 
 
-\## Application Screenshots
+## Application Screenshots
 
 
 
-\### Student Management
+### Student Management
 
 !\[Students Page](screenshots/b.png)
 
 
 
-\### Course Management
+### Course Management
 
 !\[Courses Page](screenshots/a.png)
 
 
 
-\### Start App
+### Start App
 
 !\[Courses Page](screenshots/c.png)
 
