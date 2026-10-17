@@ -91,26 +91,19 @@ This feature is intentionally separate from locally stored Students: public demo
 
 
 
-
 ## Application Screenshots
-
-
 
 ### Student Management
 
-!\[Students Page](screenshot/b.png)
-
-
+![Students Page](./screenshot/b.png)
 
 ### Course Management
 
-!\[Courses Page](screenshot/a.png)
-
-
+![Courses Page](./screenshot/a.png)
 
 ### Start App
 
-!\[Courses Page](screenshot/c.png)
+![Start App](./screenshot/c.png)
 
 
 
