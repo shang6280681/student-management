@@ -19,7 +19,7 @@ Full-stack Student and Course CRUD application using Spring Boot 3, Java 17, Ang
 (1) right click /student-management/src/main/java/com/example/studentmanagement/StudentManagementApplication.java, and Run As -> java application
 OR
 
-(2)```bash
+(2)
 cd backend
 mvn test
 mvn spring-boot:run
@@ -34,7 +34,6 @@ go to eclipse terminal
 cd frontend
 npm install
 npm start
-```
 
 Frontend: http://localhost:4200
 
