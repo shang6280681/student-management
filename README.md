@@ -30,7 +30,7 @@ Backend: http://localhost:8080
 
 H2 console: http://localhost:8080/h2-console — JDBC URL `jdbc:h2:mem:studentdb`, user `sa`, blank password.
 
-## Start frontend
+## Start Frontend 
 
 go to eclipse terminal 
 cd frontend
