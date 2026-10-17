@@ -30,9 +30,12 @@ H2 console: http://localhost:8080/h2-console — JDBC URL `jdbc:h2:mem:studentdb
 
 ## Start Frontend 
 
-go to eclipse terminal 
+go to eclipse terminal
+
 cd frontend
+
 npm install
+
 npm start
 
 Frontend: http://localhost:4200
