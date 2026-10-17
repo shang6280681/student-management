@@ -60,7 +60,7 @@ Build: `npm run build`
 Create courses before enrolling students. Example student payload:
 
 ```json
-{"name":"John Smith","email":"john@example.com","courseIds":\[1,2]}
+{"name":"John Smith","email":"john@example.com","courseIds":\\\[1,2]}
 ```
 
 ## Notes
@@ -83,4 +83,34 @@ The backend uses a Spring-managed `RestTemplate` with connection/read timeouts t
 This feature is intentionally separate from locally stored Students: public demo users are **not** imported or saved to H2. Runtime access to the external endpoint requires internet connectivity.
 
 * Verify `mvn test` and `npm run build` locally before submission.
+
+
+
+
+
+
+
+
+
+\## Application Screenshots
+
+
+
+\### Student Management
+
+!\[Students Page](screenshots/b.png)
+
+
+
+\### Course Management
+
+!\[Courses Page](screenshots/a.png)
+
+
+
+\### Start App
+
+!\[Courses Page](screenshots/c.png)
+
+
 
