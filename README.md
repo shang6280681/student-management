@@ -98,19 +98,19 @@ This feature is intentionally separate from locally stored Students: public demo
 
 ### Student Management
 
-!\[Students Page](screenshots/b.png)
+!\[Students Page](screenshot/b.png)
 
 
 
 ### Course Management
 
-!\[Courses Page](screenshots/a.png)
+!\[Courses Page](screenshot/a.png)
 
 
 
 ### Start App
 
-!\[Courses Page](screenshots/c.png)
+!\[Courses Page](screenshot/c.png)
 
 
 
