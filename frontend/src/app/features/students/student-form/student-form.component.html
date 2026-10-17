@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>{{data ? 'Edit Student' : 'Add Student'}}</h2>
+<mat-dialog-content><form [formGroup]="form" class="form">
+<mat-form-field appearance="outline"><mat-label>Name</mat-label><input matInput formControlName="name"><mat-error *ngIf="form.get('name')?.hasError('required')">Name is required</mat-error><mat-error *ngIf="form.get('name')?.hasError('maxlength')">Maximum 100 characters</mat-error></mat-form-field>
+<mat-form-field appearance="outline"><mat-label>Email</mat-label><input matInput formControlName="email"><mat-error *ngIf="form.get('email')?.hasError('required')">Email is required</mat-error><mat-error *ngIf="form.get('email')?.hasError('email')">Invalid email</mat-error></mat-form-field>
+<mat-form-field appearance="outline"><mat-label>Courses</mat-label><mat-select formControlName="courseIds" multiple><mat-option *ngFor="let course of courses" [value]="course.id">{{course.name}}</mat-option></mat-select></mat-form-field>
+<p *ngIf="loading">Loading courses...</p><p *ngIf="loadError" class="error">{{loadError}}</p>
+</form></mat-dialog-content><mat-dialog-actions align="end"><button mat-button (click)="ref.close()">Cancel</button><button mat-flat-button [disabled]="form.invalid||loading||!!loadError" (click)="save()">Save</button></mat-dialog-actions>
